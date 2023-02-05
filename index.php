@@ -64,11 +64,32 @@
           </div>
           <!--/column -->
           <div class="col-lg-5 offset-lg-1">
-            <div class="swiper-container dots-over shadow-lg" data-margin="5" data-nav="true" data-dots="true">
+            <div class="swiper-container dots-over shadow-lg" data-margin="5" data-nav="true" data-dots="true" data-autoplay="true" data-autoplaytime="4000">
               <div class="swiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="./assets/img/capsule1.png" srcset="./assets/img/capsule1.png" class="rounded" alt="" /></div>
-                  <div class="swiper-slide"><img src="./assets/img/big.png" srcset="./assets/img/big.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/capsule_challenger.png" srcset="./assets/img/rmr/capsule_challenger.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/100thieves.png" srcset="./assets/img/rmr/100thieves.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/astralis.png" srcset="./assets/img/rmr/astralis.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/espada.png" srcset="./assets/img/rmr/espada.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/evilgeniuses.png" srcset="./assets/img/rmr/evilgeniuses.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/faze.png" srcset="./assets/img/rmr/faze.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/fnatic.png" srcset="./assets/img/rmr/fnatic.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/furia.png" srcset="./assets/img/rmr/furia.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/g2.png" srcset="./assets/img/rmr/g2.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/geng.png" srcset="./assets/img/rmr/geng.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/godsent.png" srcset="./assets/img/rmr/godsent.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/heroic.png" srcset="./assets/img/rmr/heroic.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/liquid.png" srcset="./assets/img/rmr/liquid.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/navi.png" srcset="./assets/img/rmr/navi.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/nemiga.png" srcset="./assets/img/rmr/nemiga.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/nip.png" srcset="./assets/img/rmr/nip.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/north.png" srcset="./assets/img/rmr/north.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/og.png" srcset="./assets/img/rmr/og.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/renegades.png" srcset="./assets/img/rmr/renegades.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/spirit.png" srcset="./assets/img/rmr/spirit.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/tyloo.png" srcset="./assets/img/rmr/tyloo.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/vitality.png" srcset="./assets/img/rmr/vitality.png" class="rounded" alt="" /></div>
+                  <div class="swiper-slide"><img src="./assets/img/rmr/vp.png" srcset="./assets/img/rmr/vp.png" class="rounded" alt="" /></div>
                 </div>
                 <!--/.swiper-wrapper -->
               </div>
@@ -362,6 +383,31 @@
       <!-- /.container -->
     </section>
     <!-- /section -->
+
+    
+
+    <section class="wrapper bg-light">
+      <div class="container py-14 py-md-16">
+        <div class="row">
+          <div class="col-xl-10 mx-auto">
+            <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400" data-image-src="./assets/img/photos/bg3.jpg">
+              <div class="card-body p-6 p-md-11 d-lg-flex flex-row align-items-lg-center justify-content-md-between text-center text-lg-start">
+                <h3 class="display-6 mb-6 mb-lg-0 pe-lg-10 pe-xl-5 pe-xxl-18 text-white">You wanna tell us about your experience with RMR-Killers?</h3>
+                <a href="/review" class="btn btn-white rounded-pill mb-0 text-nowrap">Write a review</a>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+
+
   </div>
   <!-- /.content-wrapper -->
   <footer class="bg-navy text-inverse">
