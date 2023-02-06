@@ -64,7 +64,7 @@
             <h1 class="display-2 mb-5 text-white">Saving RMR investors.</h1>
             <p class="lead fs-lg lh-sm mb-7 pe-xl-10">We’re making sure that every CSGO major will be profitable. Even RMR. We will delete a bunch of RMR stickers regulary live on Twitch.</p>
             <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
-              <span><a href="https://steamcommunity.com/tradeoffer/new/?partner=392797480&token=s7Zx5z82" target="_blank" class="btn btn-lg btn-white rounded-pill me-2">Send RMR stickers to officialfano</a></span>
+              <span><a href="https://steamcommunity.com/tradeoffer/new/?partner=392797480&token=s7Zx5z82" target="_blank" class="btn btn-lg btn-white rounded-pill me-2">Send stickers</a></span>
               <span><a href="https://steamcommunity.com/groups/rmr-killers" target="_blank" class="btn btn-lg btn-outline-white rounded-pill">Join our Steam group</a></span>
             </div>
           </div>
