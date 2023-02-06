@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./assets/css/plugins.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/colors/purple.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -255,6 +256,10 @@
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">officialfano</h4>
                   <p class="mb-0">Financial Analyst</p>
+                  <nav class="nav social mb-0">
+                    <a href="https://steamcommunity.com/id/f4no" target="_blank"><i class="fa-brands fa-steam"></i></a>
+                    <a href="https://twitch.tv/officialfano" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+                  </nav>
                 </div>
                 <!--/.card-body -->
               </div>
@@ -271,6 +276,10 @@
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">erdbeerchen02</h4>
                   <p class="mb-0">Stockholm 2021 investor</p>
+                  <nav class="nav social mb-0">
+                    <a href="https://steamcommunity.com/id/_orphy_/" target="_blank"><i class="fa-brands fa-steam"></i></a>
+                    <a href="https://twitch.tv/erdbeerchen02" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+                  </nav>
                 </div>
                 <!--/.card-body -->
               </div>
