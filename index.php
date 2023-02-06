@@ -1,3 +1,8 @@
+<?php 
+  require_once "core/config.php";
+  require_once "core/mysqli.php";
+  require_once "ajax/get_reviews.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -201,7 +206,7 @@
                   </div>
                   <!--/column -->
                   <div class="col-6 col-lg-3">
-                    <h3 class="counter counter-lg text-white">0</h3>
+                    <h3 class="counter counter-lg text-white"><?php echo get_happy_clients(); ?></h3>
                     <p>Happy investors</p>
                   </div>
                   <!--/column -->
@@ -274,13 +279,14 @@
             <!-- /div -->
           </div>
           <!--/column -->
-
+          
         </div>
         <!--/.row -->
       </div>
       <!-- /.container -->
     </section>
     <!-- /section -->
+    
     <section class="wrapper bg-gray">
       <div class="container py-14 pt-md-0 pb-md-17">
         <div class="row mt-md-n50p text-white text-center">
@@ -289,77 +295,26 @@
               <div class="card-body p-9 p-xl-12">
                 <div class="row gx-0">
                   <div class="col-xxl-9 mx-auto">
-                    <div class="swiper-container dots-light dots-closer mb-6" data-margin="30" data-dots="true">
+                    <div class="swiper-container dots-light dots-closer mb-6" data-margin="30" data-dots="true" data-autoplay="true">
                       <div class="swiper">
+                     
                         <div class="swiper-wrapper">
+                        <?php foreach(get_reviews() as $key => $review): ?>
+                          
                           <div class="swiper-slide">
                             <span class="ratings five mb-3"></span>
                             <blockquote class="border-0 fs-lg mb-2">
-                              <p>“Thanks for saving my investments! Would rate 10 out of 10 if I could.”</p>
+                              <p>“<?php echo $review['content']; ?>”</p>
                               <div class="blockquote-details justify-content-center text-center">
                                 <div class="info ps-0">
-                                  <h5 class="mb-1 text-white">Coriss Ambady</h5>
-                                  <p class="mb-0">Typical RMR 2020 investor</p>
+                                  <h5 class="mb-1 text-white"><?php echo $review['author']; ?></h5>
+                                  <p class="mb-0"><?php echo $review['author_role']; ?></p>
                                 </div>
                               </div>
                             </blockquote>
                           </div>
                           <!--/.swiper-slide -->
-                          <div class="swiper-slide">
-                            <span class="ratings five mb-3"></span>
-                            <blockquote class="border-0 fs-lg mb-2">
-                              <p>“I thought I would never get my money back from RMR. Thanks for saving my house!”</p>
-                              <div class="blockquote-details justify-content-center text-center">
-                                <div class="info ps-0">
-                                  <h5 class="mb-1 text-white">Cory Zamora</h5>
-                                  <p class="mb-0">Proud house owner</p>
-                                </div>
-                              </div>
-                            </blockquote>
-                          </div>
-                          <!--/.swiper-slide -->
-                          <div class="swiper-slide">
-                            <span class="ratings five mb-3"></span>
-                            <blockquote class="border-0 fs-lg mb-2">
-                              <p>“They have saved me a ton of money!!!”</p>
-                              <div class="blockquote-details justify-content-center text-center">
-                                <div class="info ps-0">
-                                  <h5 class="mb-1 text-white">Nikolas Brooten</h5>
-                                  <p class="mb-0">Bought RMR stickers for 200$</p>
-                                </div>
-                              </div>
-                            </blockquote>
-                          </div>
-                          <!--/.swiper-slide -->
-
-                          <div class="swiper-slide">
-                            <span class="ratings five mb-3"></span>
-                            <blockquote class="border-0 fs-lg mb-2">
-                              <p>“Thank you for doing such thing. I am going to burn 300 godsents myself for the movement. ”</p>
-                              <div class="blockquote-details justify-content-center text-center">
-                                <div class="info ps-0">
-                                  <h5 class="mb-1 text-white">Kerem İsmetoğulları</h5>
-                                  <p class="mb-0">Does his part</p>
-                                </div>
-                              </div>
-                            </blockquote>
-                          </div>
-                          <!--/.swiper-slide -->
-
-                          <div class="swiper-slide">
-                            <span class="ratings five mb-3"></span>
-                            <blockquote class="border-0 fs-lg mb-2">
-                              <p>“Never would I have thought that letting this devil out of my inventory will make me feel so free
-                                5 out 5 stars”</p>
-                              <div class="blockquote-details justify-content-center text-center">
-                                <div class="info ps-0">
-                                  <h5 class="mb-1 text-white">-zetter</h5>
-                                  <p class="mb-0">Got rid off his pain</p>
-                                </div>
-                              </div>
-                            </blockquote>
-                          </div>
-                          <!--/.swiper-slide -->
+                          <?php endforeach; ?>
                         </div>
                         <!--/.swiper-wrapper -->
                       </div>
